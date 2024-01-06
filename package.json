@@ -1,0 +1,25 @@
+{
+  "name": "spider-zhihu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "type-check": "bash -c tsc --noEmit",
+    "lint": "eslint ./src --fix",
+    "follow": "tsx ./src/follow.ts",
+    "collection": "tsx ./src/collection.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.1",
+    "@types/node": "^20.10.6",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "tsx": "^4.7.0"
+  }
+}
